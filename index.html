@@ -3,36 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Dominance - Leading AI Resources in Singapore</title>
+    <title>AI Dominance SG - AI News in Singapore</title>
     <link rel="icon" type="image/png" href="dominance_icon.png">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-        }
-        .container {
-            text-align: center;
-            padding: 2rem;
-        }
-        .logo {
-            max-width: 400px;
-            height: auto;
-            margin-bottom: 2rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KM0KCBST14"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-KM0KCBST14');
+    </script>
 </head>
 <body>
-    <div class="container">
-        <img src="dominance_logo.png" alt="AI Dominance" class="logo">
-    </div>
+    <header>
+        <nav>
+            <div class="logo"><img src="dominance_logo.png" alt="AI Dominance" style="max-height: 40px;"></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="archive.html">Archive</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Latest AI News in Singapore</h1>
+            <p>Keeping you updated on AI advancements, policies, and events in the Lion City.</p>
+        </section>
+
+        <section class="featured">
+            <h2>Featured Posts</h2>
+            <div class="post-grid">
+                <article>
+                    <h3>Singapore's AI Healthcare Revolution</h3>
+                    <p>Teaser: How machine learning is transforming diagnostics, treatment planning, and patient outcomes across Singapore's world-class healthcare system...</p>
+                    <a href="posts/singapore-ai-healthcare-revolution.html" class="read-more">Read More</a>
+                </article>
+                <article>
+                    <h3>Taiger: Singapore's Enterprise AI Pioneer</h3>
+                    <p>Teaser: How this homegrown startup is revolutionizing document processing and conversational AI for enterprises worldwide...</p>
+                    <a href="posts/taiger-ai-singapore.html" class="read-more">Read More</a>
+                </article>
+                <article>
+                    <h3>Vi维智能: Singapore's Computer Vision Pioneer</h3>
+                    <p>Teaser: How this homegrown startup is revolutionizing retail analytics and security across Southeast Asia...</p>
+                    <a href="posts/viwei-computer-vision-singapore.html" class="read-more">Read More</a>
+                </article>
+                <article>
+                    <h3>Singapore Tests AI-Powered Air Traffic Tool for Safer Skies</h3>
+                    <p>Teaser: CAAS is testing a new aircraft separation tool with AI integration planned for next phase...</p>
+                    <a href="posts/singapore-aircraft-separation-ai.html" class="read-more">Read More</a>
+                </article>
+                <article>
+                    <h3>Meta Acquires Singapore-Based Manus AI for $2 Billion</h3>
+                    <p>Teaser: In a landmark deal, Meta snaps up the Singapore AI agent startup in one of Southeast Asia's biggest AI acquisitions...</p>
+                    <a href="posts/meta-manus-acquisition.html" class="read-more">Read More</a>
+                </article>
+                <article>
+                    <h3>Basis AI: Singapore's Homegrown Enterprise AI Platform</h3>
+                    <p>Teaser: How this Singapore startup is bringing generative AI to enterprises across Southeast Asia...</p>
+                    <a href="posts/basis-ai-singapore.html" class="read-more">Read More</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="recent">
+            <h2>Recent Posts</h2>
+            <ul>
+                <li><a href="posts/singapore-ai-healthcare-revolution.html">Singapore's AI Healthcare Revolution (Feb 2026)</a></li>
+                <li><a href="posts/taiger-ai-singapore.html">Taiger: Singapore's Enterprise AI Pioneer (Feb 2026)</a></li>
+                <li><a href="posts/viwei-computer-vision-singapore.html">Vi维智能: Singapore's Computer Vision Pioneer (Feb 2026)</a></li>
+                <li><a href="posts/singapore-aircraft-separation-ai.html">Singapore Tests AI-Powered Air Traffic Tool for Safer Skies (Feb 2026)</a></li>
+                <li><a href="posts/meta-manus-acquisition.html">Meta Acquires Singapore-Based Manus AI for $2 Billion (Feb 2026)</a></li>
+                <li><a href="posts/basis-ai-singapore.html">Basis AI: Singapore's Homegrown Enterprise AI Platform (Feb 2026)</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 AI Dominance SG. All rights reserved.</p>
+    </footer>
 </body>
 </html>
