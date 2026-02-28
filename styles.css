@@ -295,3 +295,27 @@ footer {
     padding: 1.5rem;
   }
 }
+
+/* Article Tables */
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+article th,
+article td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid var(--border);
+}
+
+article th {
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+article td {
+  color: var(--text-secondary);
+}
